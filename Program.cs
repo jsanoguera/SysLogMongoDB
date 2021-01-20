@@ -12,7 +12,7 @@ namespace ConsoleMongoDB
     {
         static void Main(string[] args)
         {
-            MongoClient dbClient = new MongoClient("mongodb://127.0.0.1:27017");
+            MongoClient dbClient = new MongoClient("mongodb://127.0.0.1:27017"); 
 
             var dbList = dbClient.ListDatabases().ToList();
 
